@@ -105,6 +105,14 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Image.asset(
+              'assets/img.png',
+              height: 500,
+              width: 300,
+            ),
+            const Text(
+              'MY NAME EMRAN HAQUE',
+            ),
             const Text(
               'HI there i am your 1st project ',
             ),
